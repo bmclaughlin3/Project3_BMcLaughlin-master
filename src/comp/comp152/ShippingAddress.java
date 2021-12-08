@@ -1,6 +1,7 @@
+package comp.comp152;
 
 /**
- * Class ShippingAddress
+ * Class comp.comp152.ShippingAddress
  */
 public class ShippingAddress {
     private String AddressLine1;
@@ -24,8 +25,4 @@ public class ShippingAddress {
             return AddressLine1+'\n'+ AddressLine2+"\n"+City+", "+State+"  "+PostalCode;
         return AddressLine1+'\n'+City+", "+State+"  "+PostalCode;
     }
-
-
-
-
 }
